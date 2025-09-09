@@ -66,3 +66,5 @@ USERS_FILE=users.json
 # Logging
 LOG_LEVEL=INFO
 LOG_FILE=bot.log
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ulgg9/OSINET_MAX)
