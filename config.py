@@ -11,8 +11,8 @@ class Config:
     
     def __init__(self):
         # Bot configuration
-        self.BOT_TOKEN = os.getenv('BOT_TOKEN', '')
-        self.ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
+        self.BOT_TOKEN = os.getenv('BOT_TOKEN', '7534056097:AAHWTi3_fl0iDM8mzkIDRVlf4lg_q9volbY')
+        self.ADMIN_ID = int(os.getenv('ADMIN_ID', '6677821706'))
         
         # Validate required environment variables
         if not self.BOT_TOKEN:
@@ -30,17 +30,17 @@ class Config:
             {
                 'name': 'Main Channel',
                 'username': None,
-                'url': 'https://t.me/+TEOLVuOuPl01Y2U1'
+                'url': 'https://t.me/neyyeneejeywyneme'
             },
             {
                 'name': 'Join Must Channel',
                 'username': None,
-                'url': 'https://t.me/DonateMod'
+                'url': 'https://t.me/neyyeneejeywyneme'
             }
         ]
         
         # Rate limiting settings
-        self.RATE_LIMIT_REQUESTS = int(os.getenv('RATE_LIMIT_REQUESTS', '5'))
+        self.RATE_LIMIT_REQUESTS = int(os.getenv('RATE_LIMIT_REQUESTS', '50'))
         self.RATE_LIMIT_WINDOW = int(os.getenv('RATE_LIMIT_WINDOW', '60'))  # seconds
         
         # Database settings
